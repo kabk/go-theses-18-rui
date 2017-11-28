@@ -1,1 +1,1 @@
-# go-thesis-18-rebe
+# go-theses-18-rui

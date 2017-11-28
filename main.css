@@ -33,5 +33,9 @@ body {
 	margin-left: 32rem;
 	margin-right: 20rem;
 
+}
 
+.popup {
+	a img { display:none; }
+	a:hover img { display:block; }
 }
