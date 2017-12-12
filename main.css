@@ -1,6 +1,8 @@
 @font-face {
 	font-family: Menlo;
     src: url(Menlo.ttcf);
+    
+
 }
 
 
@@ -34,7 +36,10 @@ body {
 	margin-right: 20rem;
 
 }
-
+/*
+.pop-up hover{
+	dfdf
+}*/
 
 
 span.pop-up {
