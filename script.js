@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$('#ref-text-1').css({'color': 'blue'});
 	});
 	$('#ref-text-1').mouseleave(function(){
-		$('#ref-text-1').css({'color': '#333'});
+		$('#ref-text-1').css({'color': '#9ec47b'});
 	});	
 // div 2
 	$('#ref-text-2').hover(function(){
@@ -25,28 +25,28 @@ $(document).ready(function(){
 	});
 
 	$('#ref-text-2').mouseleave(function(){
-		$('#ref-item-2').css({'color': '#333'});
-		$('#ref-text-2').css({'color': '#333'});
+		$('#ref-item-2').css({'color': '#9ec47b'});
+		$('#ref-text-2').css({'color': '#9ec47b'});
 	});	
 	$('#ref-item-2').mouseleave(function(){
-		$('#ref-text-2').css({'color': '#333'});
-		$('#ref-item-2').css({'color': '#333'});
+		$('#ref-text-2').css({'color': '#9ec47b'});
+		$('#ref-item-2').css({'color': '#9ec47b'});
 	});	
 	$('#ref-text-3').hover(function(){
 		$('#ref-item-3').css({'color': 'blue'});
 		$('#ref-text-3').css({'color': 'blue'});
 	});
 	$('#ref-text-3').mouseleave(function(){
-		$('#ref-item-3').css({'color': '#333'});
-		$('#ref-text-3').css({'color': '#333'});
+		$('#ref-item-3').css({'color': '#9ec47b'});
+		$('#ref-text-3').css({'color': '#9ec47b'});
 	});	
 	$('#ref-item-3').hover(function(){
 		$('#ref-text-3').css({'color': 'blue'});
 		$('#ref-item-3').css({'color': 'blue'});
 	});
 	$('#ref-item-3').mouseleave(function(){
-		$('#ref-text-3').css({'color': '#333'});
-		$('#ref-item-3').css({'color': '#333'});
+		$('#ref-text-3').css({'color': '#9ec47b'});
+		$('#ref-item-3').css({'color': '#9ec47b'});
 	});	
 // div 3
 	$('#ref-text-4').hover(function(){
@@ -54,16 +54,16 @@ $(document).ready(function(){
 		$('#ref-text-4').css({'color': 'blue'});
 	});
 	$('#ref-text-4').mouseleave(function(){
-		$('#ref-item-4').css({'color': '#333'});
-		$('#ref-text-4').css({'color': '#333'});
+		$('#ref-item-4').css({'color': '#9ec47b'});
+		$('#ref-text-4').css({'color': '#9ec47b'});
 	});	
 	$('#ref-item-4').hover(function(){
 		$('#ref-text-4').css({'color': 'blue'});
 		$('#ref-item-4').css({'color': 'blue'});
 	});
 	$('#ref-item-4').mouseleave(function(){
-		$('#ref-text-4').css({'color': '#333'});
-		$('#ref-item-4').css({'color': '#333'});
+		$('#ref-text-4').css({'color': '#9ec47b'});
+		$('#ref-item-4').css({'color': '#9ec47b'});
 	});	
 // div 4
 	$('#ref-text-5').hover(function(){
@@ -71,16 +71,16 @@ $(document).ready(function(){
 		$('#ref-text-5').css({'color': 'blue'});
 	});
 	$('#ref-text-5').mouseleave(function(){
-		$('#ref-item-5').css({'color': '#333'});
-		$('#ref-text-5').css({'color': '#333'});
+		$('#ref-item-5').css({'color': '#9ec47b'});
+		$('#ref-text-5').css({'color': '#9ec47b'});
 	});	
 	$('#ref-item-5').hover(function(){
 		$('#ref-text-5').css({'color': 'blue'});
 		$('#ref-item-5').css({'color': 'blue'});
 	});
 	$('#ref-item-5').mouseleave(function(){
-		$('#ref-text-5').css({'color': '#333'});
-		$('#ref-item-5').css({'color': '#333'});
+		$('#ref-text-5').css({'color': '#9ec47b'});
+		$('#ref-item-5').css({'color': '#9ec47b'});
 	});	
 // div 5
 	$('#ref-text-6').hover(function(){
@@ -88,16 +88,16 @@ $(document).ready(function(){
 		$('#ref-text-6').css({'color': 'blue'});
 	});
 	$('#ref-text-6').mouseleave(function(){
-		$('#ref-item-6').css({'color': '#333'});
-		$('#ref-text-6').css({'color': '#333'});
+		$('#ref-item-6').css({'color': '#9ec47b'});
+		$('#ref-text-6').css({'color': '#9ec47b'});
 	});	
 	$('#ref-item-6').hover(function(){
 		$('#ref-text-6').css({'color': 'blue'});
 		$('#ref-item-6').css({'color': 'blue'});
 	});
 	$('#ref-item-6').mouseleave(function(){
-		$('#ref-text-6').css({'color': '#333'});
-		$('#ref-item-6').css({'color': '#333'});
+		$('#ref-text-6').css({'color': '#9ec47b'});
+		$('#ref-item-6').css({'color': '#9ec47b'});
 	});
 
 });

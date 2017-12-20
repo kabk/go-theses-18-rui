@@ -14,8 +14,6 @@ body {
 	line-height: 1.6;
 }
 
-
-
 a {
 	font-family: Menlo;
 	text-decoration: none;
@@ -27,6 +25,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	font-family: Menlo, monospace;
 	font-size: 1.2rem;
 	font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: orange;
 }
 
 
@@ -57,8 +58,6 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 	padding-top: 0;
 }
 
-
-
 h1.entry-title {
 	margin-bottom: 0.25em;
 }
@@ -74,6 +73,7 @@ h1.entry-title a {
 h1 {
 	padding-left: 10em;
 }
+
 h2 {
 	padding-left: 15em;
 }
@@ -102,7 +102,20 @@ h3 {
 
 .markdown {
 	color: red;/*#C0C0C0;*/
+	color: #9ec47b
 }
+
+div a img {
+	float: left;
+	margin-bottom: 0.5em;
+	margin-left: 0.2em
+}
+
+#ref-item-15 {
+	border: 2px solid red;
+
+}
+
 /*
 dfn, cite, em, i {
 	font-style: italic;
@@ -242,17 +255,17 @@ th:last-child, td:last-child {
 /*text items*/
 
 .ref-text {
-	color: gray;
+	color: #9ec47b;
 }
 
 /*ref items*/
 .ref-item {
-	color: pink;
+/*	color: pink;*/
 	font-style: italic;
 	float: right;
 	margin-right: -2em;
 	z-index: 999;
-	background-color: yellow;
+/*	background-color: yellow;*/
 	width: 13em;
 }
 
@@ -269,7 +282,6 @@ ul {
 
 .small-solaris {
 	float: right;
-	border: 2px solid red;
 	width: 10rem;
 	height: 7rem;
 	overflow: hidden;
