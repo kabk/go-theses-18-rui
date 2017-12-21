@@ -8,8 +8,8 @@ html {
 }
 
 body {
-	color: #333;
-	background: #fff;
+	color: #abb2bf;
+	background: #212025;
 	padding: 2.5em 2em 2.5em 2em;
 	line-height: 1.6;
 }
@@ -17,17 +17,20 @@ body {
 a {
 	font-family: Menlo;
 	text-decoration: none;
+	color: #9ec47b;
+
 
 }
+
 
 h1, h2, h3, h4, h5, h6, p, ul {
 	text-align: right-justify;
-	font-family: Menlo, monospace;
+	font-family: Menlo;
 	font-size: 1.2rem;
-	font-weight: 500;
+	font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: orange;
+	color: #deab6a;
 }
 
 
@@ -58,7 +61,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 	padding-top: 0;
 }
 
-h1.entry-title {
+/*h1.entry-title {
 	margin-bottom: 0.25em;
 }
 
@@ -68,7 +71,7 @@ h1.entry-title a {
 	transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
 	text-decoration: none;
 	margin-left: -2px;
-}
+}*/
 
 h1 {
 	padding-left: 10em;
@@ -285,7 +288,17 @@ ul {
 	width: 10rem;
 	height: 7rem;
 	overflow: hidden;
-    text-overflow: clip; 
+    text-overflow: clip;
+    border: #9ec47b 1px solid;
+}
+
+.small-solaris-blue {
+	float: right;
+	width: 10rem;
+	height: 7rem;
+	overflow: hidden;
+    text-overflow: clip;
+    border: blue 1px solid;
 }
 
 .big-solaris {
@@ -295,7 +308,7 @@ ul {
     left: 0;
 	position: fixed;
 	z-index: 999;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 	background-color: gray;
 	opacity: 50%;
 }
@@ -528,8 +541,12 @@ div.post-thumbnail-top a:hover img, div.post-thumbnail-top a:focus img {
 	src: local('Libre Franklin Bold Italic'), local('LibreFranklin-BoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v1/7_V210XP3LBEtEwiCTqho_gS_wbAo-UVERPhlcubOK8.woff) format('woff');
 }
 
- @font-face {
-	font-family: Menlo;
-    src: url(Menlo.ttcf);
 }
+@font-face { 
+	font-family: Source Code Regular; 
+	src: url('SourceCodePro-Regular.ttf'); } 
+
+@font-face { 
+	font-family: Menlo; 
+	src: url('Menlo.otf'); } 
 
