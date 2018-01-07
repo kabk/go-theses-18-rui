@@ -203,6 +203,11 @@ input[type="button"]{
     border: none;
 }
 
+/*blue otline*/
+/*button:focus {
+	outline:0;
+}*/
+
 #button1 {
 	margin-bottom: 5em;
 
@@ -224,65 +229,6 @@ input[type="button"]{
 
 
 
-
-
-
-
-
-/*
-
-@media print {
-
-	body {
-		font-size: 12pt;
-	}
-
-	h1 {
-		font-size: 24pt;
-	}
-
-	h2 {
-		font-size: 22pt;
-	}
-
-	h3 {
-		font-size: 17pt;
-	}
-
-	h4 {
-		font-size: 12pt;
-	}
-
-	h5 {
-		font-size: 11pt;
-	}
-
-	h6 {
-		font-size: 12pt;
-	}
-
-	h1.entry-title {
-		font-size: 10pt;
-	}
-
-	article {
-		padding-left: 5% !important;
-		padding-right: 5% !important;
-		max-width: none;
-	}
-
-	body {
-		background: none !important;
-	}
-
-	body, a {
-		color: #222 !important;
-	}
-
-	h2, h5, blockquote {
-		color: #777 !important;
-	}
-}*/
 
 
 
