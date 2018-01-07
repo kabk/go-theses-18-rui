@@ -13,11 +13,11 @@ body {
 	background: #fafafa;
 	/*background: #212025;*/
 	padding: 2.5em 2em 2.5em 2em;
-	line-height: 1.6;
+	line-height: 1.4375rem;
+	font-family: 'Source Code Pro';
 }
 
 a {
-	font-family: Menlo;
 	text-decoration: none;
 	color: #9ec47b;
 }
@@ -25,8 +25,7 @@ a {
 
 h1, h2, h3, h4, h5, h6, p, ul {
 	text-align: right-justify;
-	font-family: Menlo;
-	font-size: 1.2rem;
+	font-size: 1.125rem;
 	font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -112,8 +111,6 @@ div a img {
 
 /*ref items*/
 .ref-item {
-/*	color: pink;*/
-	font-style: italic;
 	float: right;
 	margin-right: -2em;
 	z-index: 999;
@@ -126,8 +123,8 @@ ul {
 	list-style: disc;
 	padding-left: 0em;
 	padding-right: 0em;
-/*	margin-bottom: 30em;
-*/	font-size: 0.7rem;
+	/*	margin-bottom: 30em;*/	
+	font-size: 1.125rem;
 }
 
 
@@ -171,7 +168,7 @@ img {
 
 figcaption {
 	color: pink;
-	font-size: 0.9rem;
+	font-size: 1.125rem;
 	font-style: italic;
 	text-align: center;
 	margin-top: 3em;
@@ -197,8 +194,8 @@ figcaption {
 input[type="button"]{
 	background-color: #fafafa;
 	/*margin-bottom:20px;*/
-	font-family : Menlo, Monospace;
-    font-size: 0.5em;
+	font-family: 'Source Code Pro';
+    font-size: 0.55em;
     text-decoration: none;
     border: none;
 }
@@ -235,19 +232,5 @@ input[type="button"]{
 
 /* FONTS */
 
-@font-face {
-	font-family: 'Libre Franklin';
-	font-style: italic;
-	font-weight: 700;
-	src: local('Libre Franklin Bold Italic'), local('LibreFranklin-BoldItalic'), url(https://fonts.gstatic.com/s/librefranklin/v1/7_V210XP3LBEtEwiCTqho_gS_wbAo-UVERPhlcubOK8.woff) format('woff');
-}
 
-}
-@font-face { 
-	font-family: Source Code Regular; 
-	src: url('SourceCodePro-Regular.ttf'); } 
-
-@font-face { 
-	font-family: Menlo; 
-	src: url('Menlo.otf'); } 
 
