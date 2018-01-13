@@ -10,7 +10,7 @@ html {
 body {
 	/*color: #abb2bf;*/
 	color: #a2a3ac;
-	background: #f8f8f8;
+	background-color: #f8f8f8;
 	line-height: 1.4375rem;
 	font-family: 'Source Code Pro';
 	cursor: default;
@@ -20,13 +20,16 @@ a {
 	text-decoration: none;
 }
 
+.top-margin {
+	margin-top: 1.5em;
+}
 h1, h2, h3, h4, h5, h6, p, li {
 	padding-right: 2em;
 	padding-left: 2em;
 	font-size: 1.125rem;
 	font-weight: 400;
-	margin-left: 2em;
-	margin-right: 17em;
+	margin-left: 1.4em;
+	margin-right: 18em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
-	color: #fafafa; 
+	color: #fafafa;
+	cursor: pointer;
+
 }
 
 
@@ -161,22 +166,30 @@ figcaption {
 .big-facebook img {
     margin-top: 2em;
 }
-
+button:hover {
+	color: #f8f8f8;
+	background-color: #a2a3ac;
+}
 
 button {
-	margin-left: 73em;
   	margin-top: 0.27em;
-	color: #fafafa;
-	background-color: lightgray;
-	border-radius: 6px;
+	border-radius: 5px;
 	width: 4.5em;
 	height: 1.5em;
+	float: right;
+	display: inline;
+	margin-left: 0.4em;
+	margin-right: 0.4em;
+	border-style: solid;
+	border-color: #a2a3ac;
+	color: #a2a3ac;
+	background-color: #f8f8f8;
+
 
 	font-family: 'Source Sans- Pro', sans-serif;
-	font-weight: 600;
-	font-size: 18px;
+	font-weight: 500;
+	font-size: 1.125rem;
 	letter-spacing: 0.35px;
-
 
 }
 /*.oneLine{
@@ -220,6 +233,7 @@ section .headers {
 	section .headers {
 		margin-left: -2em;
 	}
+
 	h1 {
 		font-size: 61pt;
 	}
@@ -248,9 +262,7 @@ section .headers {
 	.index {
 		display: none;
 	}
-	#edit-panel {
-		display: none;
-	}
+
 	.markdown {
 		display: none;
 	}
