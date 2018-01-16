@@ -9,7 +9,7 @@ html {
 
 body {
 	/*color: #abb2bf;*/
-	color: #a2a3ac;
+	color: #a0a1a7;
 	background-color: #f8f8f8;
 	line-height: 1.4375rem;
 	font-family: 'Source Code Pro';
@@ -33,15 +33,14 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #a626a6;
+	color: #a81ba6;
 	font-weight: bold;
 }
 h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
-	color: #a2a3ac;
+	color: #a0a1a7;
 	cursor: pointer;
 
 }
-
 
 /**, *:before, *:after {
 	box-sizing: inherit;
@@ -75,18 +74,22 @@ div a img {
 
 }
 
+.index {
+	color: #c2c2c3;
+}
+
 .index:hover {
 	/*color: blue;*/
 	/*cursor: context-menu;*/
 	/*font-weight: 900;*/
 	/*cursor: s-resize;*/
 	/*cursor: e-resize;*/
-	color: gray;
+	color: #696c77;
 	font-weight: 900;
 }
 
 .ref-text {
-	color: #0184bc;
+	color: #996900;
 }
 
 .ref-div {
@@ -99,7 +102,7 @@ div a img {
 	z-index: 999;
 	width: 15em;
 	font-size: 1rem;
-	color: #5aa14f;
+	color: #4da24b;
 	padding-bottom: 2em;
 }
 
@@ -168,7 +171,7 @@ figcaption {
 }
 button:hover {
 	color: #f8f8f8;
-	background-color: #a2a3ac;
+	background-color: #c2c2c3;
 }
 
 button {
@@ -181,8 +184,8 @@ button {
 	margin-left: 0.4em;
 	margin-right: 0.4em;
 	border-style: solid;
-	border-color: #a2a3ac;
-	color: #a2a3ac;
+	border-color: #c2c2c3;
+	color: #c2c2c3;
 	background-color: #f8f8f8;
 
 
