@@ -214,6 +214,7 @@ section .headers {
 
 	body {
 		background: none;
+		display: none;
 	}
 	p, li, ul {
 /*		padding-right: 2em;
