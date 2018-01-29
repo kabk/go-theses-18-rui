@@ -276,7 +276,7 @@ section .headers {
 	}
 
 	.ref-div {
-		float: left; 
+		float: right; 
 		display: inline-block;
 	}
 
