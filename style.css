@@ -176,6 +176,9 @@ button:hover {
 	background-color: #c2c2c3;
 }
 
+button:focus { 
+	outline: none; }
+
 button {
   	margin-top: 0.27em;
 	border-radius: 5px;
@@ -185,8 +188,8 @@ button {
 	display: inline;
 	margin-left: 0.4em;
 	margin-right: 0.4em;
-	border-style: solid;
-	/*border-color: #c2c2c3;*/
+	/*border-style: solid;
+	border-color: #c2c2c3;*/
 	color: #c2c2c3;
 	background-color: #f8f8f8;
 
