@@ -39,7 +39,14 @@ h1, h2, h3, h4, h5, h6 {
 h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 	color: #a0a1a7;
 	cursor: pointer;
+}
 
+h1:hover {
+	cursor: pointer;
+}
+
+.title{
+	color: #a0a1a7;
 }
 
 /**, *:before, *:after {
@@ -75,7 +82,7 @@ div a img {
 }
 
 .index {
-	color: #c2c2c3;
+	color: #a0a1a7;
 }
 
 .index:hover {
@@ -84,8 +91,8 @@ div a img {
 	/*font-weight: 900;*/
 	/*cursor: s-resize;*/
 	/*cursor: e-resize;*/
-	color: #696c77;
-	font-weight: 900;
+	/* color: #696c77;
+	font-weight: 900; */
 }
 
 .ref-text {
@@ -93,7 +100,7 @@ div a img {
 }
 
 .ref-div {
-	float: right; 
+	float: right;
 	display: inline-block;
 }
 
@@ -171,28 +178,19 @@ figcaption {
     max-width: 80%;
     max-height: 80%;
 }
-button:hover {
-	color: #f8f8f8;
-	background-color: #c2c2c3;
-}
-
-button:focus { 
-	outline: none; }
 
 button {
-  	margin-top: 0.27em;
+  margin-top: 0.27em;
 	border-radius: 5px;
 	width: 4.5em;
-	height: 1.5em;
+	height: 1.7em;
 	float: right;
 	display: inline;
-	margin-left: 0.4em;
 	margin-right: 0.4em;
-	/*border-style: solid;
-	border-color: #c2c2c3;*/
-	color: #c2c2c3;
+	border-style: solid;
+	border-color: #f8f8f8;
+	color: #a0a1a7;
 	background-color: #f8f8f8;
-
 
 	font-family: 'Source Sans- Pro', sans-serif;
 	font-weight: 500;
@@ -200,6 +198,14 @@ button {
 	letter-spacing: 0.35px;
 
 }
+
+button:hover {
+	color: #f8f8f8;
+	background-color: #a0a1a7;
+}
+
+button:focus {
+	outline: none; }
 /*.oneLine{
 	float: left;
 	display: inline-block;
@@ -281,7 +287,7 @@ section .headers {
 	}
 
 	.ref-div {
-		float: left; 
+		float: left;
 		display: inline-block;
 	}
 
