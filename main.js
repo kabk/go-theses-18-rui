@@ -11,11 +11,11 @@ $('section').each(function(i){
 		if (allColapsed === false) {
 			allColapsed = true;
 			allPs.hide();
-			$('.ref-div, .ref-item, .small-solaris, .small-facebook').hide();
+			$('.ref-div, .ref-item, .small-solaris, .small-facebook, blockquote, ul').hide();
 		} else {
 			allColapsed = false;
 			allPs.show();
-			$('.ref-div, .ref-item, .small-solaris, .small-facebook').show();
+			$('.ref-div, .ref-item, .small-solaris, .small-facebook, blockquote, ul').show();
 
 		}
 	});
