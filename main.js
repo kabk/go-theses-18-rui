@@ -1,9 +1,9 @@
 // index
 var allColapsed = false;
-var allPs = $('section').find('p, li');
+var allPs = $('section').find('p, li, a, img, figcaption, div');
 
 $('section').each(function(i){
-	var paragraphs = $(this).find('p, li');
+	var paragraphs = $(this).find('p, li, a, img, figcaption, div');
 	var notes = $(this).find('.ref-div, .ref-item, .small-solaris, .small-facebook');
 	// paragraphs.hide();
 	$(this).find('.index').click(function(){
@@ -25,4 +25,3 @@ $('section').each(function(i){
 
 	});
 });
-
