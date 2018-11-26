@@ -14,7 +14,6 @@ $(document).ready(function () {
 							$('.footnotes').show();
 						} else {
 							allColapsed = false;
-							$('.footnotes').show();
 							}
     });
 //click #title show all pargraphs and footnotes
