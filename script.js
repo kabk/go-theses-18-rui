@@ -11,6 +11,7 @@ $(document).ready(function () {
 				//footnotes
 				if (allColapsed === false) {
 							allColapsed = true;
+							$('.footnotes').show();
 						} else {
 							allColapsed = false;
 							$('.footnotes').show();
@@ -20,12 +21,12 @@ $(document).ready(function () {
 		$("#title").click(function(){
 				if (allColapsed === false) {
 							allColapsed = true;
-							allPs.hide();
-							$('.footnotes').hide();
-						} else {
-							allColapsed = false;
 							allPs.show();
 							$('.footnotes').show();
+						} else {
+							allColapsed = false;
+							allPs.hide();
+							$('.footnotes').hide();
 							}
 
     });
