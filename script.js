@@ -30,7 +30,6 @@ $(document).ready(function () {
 
     });
 
-
   	//change color of all headers on #title hover
   	$(this).find('#title').hover(function(){
   		$('#title, .headers').addClass("title-on-hover");
