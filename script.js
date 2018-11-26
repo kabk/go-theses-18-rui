@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 //click headers show indivudal paragraphs
     $('.headers').click(function () {
-        $(this).parent().nextAll().slideToggle(200);
+        $(this).parent().nextAll().slideToggle(500);
 				//footnotes
 				if (allColapsed === false) {
 							allColapsed = true;
@@ -20,11 +20,11 @@ $(document).ready(function () {
 		$("#title").click(function(){
 				if (allColapsed === false) {
 							allColapsed = true;
-							allPs.show();
+							allPs.slideDown(500);
 							$('.footnotes').show();
 						} else {
 							allColapsed = false;
-							allPs.hide();
+							allPs.slideUp(500);
 							$('.footnotes').hide();
 							}
 
@@ -37,6 +37,7 @@ $(document).ready(function () {
   	$(this).find('#title').mouseleave(function(){
   		$('#title, .headers').removeClass("title-on-hover");
   	});
+
 
 
 });

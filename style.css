@@ -104,8 +104,8 @@ a {
 }
 
 #main-text p, #main-text li {
-	padding-right: 5em;
-	padding-left: 4.8em;
+	padding-right: 3em;
+	padding-left: 4.9em;
 }
 
 .headers, #title {
@@ -172,7 +172,6 @@ h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 
 .title-on-hover {
 	color: #a0a1a7;
-
 }
 
 
