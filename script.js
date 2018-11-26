@@ -11,7 +11,6 @@ $(document).ready(function () {
 				//footnotes
 				if (allColapsed === false) {
 							allColapsed = true;
-							$('.footnotes').hide();
 						} else {
 							allColapsed = false;
 							$('.footnotes').show();
