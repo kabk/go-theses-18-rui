@@ -25,10 +25,10 @@ html {
 #main-text {
 	float: left;
 	position: absolute;
-	width: 65%;
-	max-width: 65em;
-	min-width: 57em;
-	padding-bottom: 1em;
+	width: 70%;
+	max-width: 70%;
+	/* min-width: 5em; */
+	padding-bottom: 2em;
 	/* background-color: black; */
 }
 
@@ -48,6 +48,32 @@ html {
 	/* background-color: yellow; */
 
 }
+@media only screen and (max-width: 1000px) {
+		#main-text {
+			width: 100%;
+			position: relative;
+
+		}
+		#footnotes {
+			width: 100%;
+			position: relative;
+			bottom: 0;
+    }
+		#button-header {
+			z-index: 9;
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			background-color: #f8f8f8;
+		}
+
+
+}
+
+
+
+
 
 #footnotes li {
 	padding-left: 0;
@@ -113,34 +139,48 @@ a {
 }
 
 section h1:last-of-type:before {
-	content: "      ";
+	content: "      # ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
 
 section h2:last-of-type:before {
-	content: "     ";
+	content: "     ## ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
 
 section h3:last-of-type:before {
-	content: "    ";
+	content: "    ### ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
 
 section h4:last-of-type:before {
-	content: "   ";
+	content: "   #### ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
 
 section h5:last-of-type:before {
-	content: "  ";
+	content: "  ##### ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
 
 section h6:last-of-type:before {
-	content: " ";
+	content: " ###### ";
 	white-space: pre;
+	color: #a0a1a7;
+	font-weight: normal;
 }
+
+
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
 	font-size: 1.125rem;
