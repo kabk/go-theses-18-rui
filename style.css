@@ -201,14 +201,13 @@ section h6:last-of-type:before {
 	/* background-color: yellow; */
 }
 
+#footnotes ol {
+	margin-top: 0;
+}
+
 #footnotes li {
 	padding-left: 0;
 	margin-bottom: 1em;
-
-}
-
-#footnotes ol {
-	margin-top: 0;
 }
 
 #footnotes a, #info-web a {
@@ -221,15 +220,15 @@ section h6:last-of-type:before {
 	display: inline;
 }
 
+#footnotes, #footnotes a, #footnotes p, sup a {
+	text-decoration: none;
+	color: #4da24b;
+}
+
 #footnotes img {
 	max-width: 280px;
 	min-width: 250px;
 	vertical-align: text-top;
-}
-
-#footnotes, #footnotes a, #footnotes p, sup a {
-	text-decoration: none;
-	color: #4da24b;
 }
 
 /* #footnotes:hover, #footnotes a:hover, #footnotes p:hover, sup a:hover {

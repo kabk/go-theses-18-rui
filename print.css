@@ -15,27 +15,24 @@
   #info {
     width: 100% !important;
     display: inline-block !important;
-    /* padding-left: 11.3mm; */
-    /* background-color: yellow; */
-    /* border-top: 1pt solid #939597;
-    border-left: 1pt solid #939597; */
+    padding: 0 !important;
   }
 
   #info p {
     font-family: 'VerilySerifMono';
     text-transform: uppercase;
     font-size: 14pt;
-    line-height: 17.008pt !important;
-    margin-top: 0;
-    padding-top: 0;
-    margin-bottom: 85.04pt;
-    /* margin-left: 5mm; */
+    line-height: 6mm !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   @page {
-    margin-top: 3mm;
-    margin-bottom: 12mm;
-    margin-right: 3mm;
+    margin-top: 6mm;
+    margin-bottom: 9mm;
+    margin-right: 6mm;
     margin-left: 6mm;
   }
 
@@ -54,8 +51,8 @@
     float: none !important;
     color: black;
     background: transparent;
-    line-height: 17.008pt !important;
 
+    line-height: 6mm !important;
   }
 
   #main-text {
@@ -69,16 +66,13 @@
     padding-left: 87mm !important;
     padding-right: 0 !important;
     text-indent: 6mm;
-    margin-top: 0;
-    margin-bottom: 0;
     margin: 0 !important;
 
     font-family: 'Big Caslon';
     font-weight: normal;
     font-size: 14.5pt;
-    line-height: 17.008pt !important;
     text-align: left;
-    hyphenation: none;
+
   }
 
   #main-text sup {
@@ -101,11 +95,12 @@
     text-indent: 0;
   }
 
+  #main-text p, #main-text blockquote {
+    hyphens: auto;
+  }
+
   #main-text blockquote {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0 !important;
     color: #939597;
     font-style: italic;
     padding-left: 6mm;
@@ -113,7 +108,6 @@
 
   #main-text blockquote p+p {
     text-indent: 0;
-    margin-top: 8.504pt;
   }
 
   #main-text blockquote p a {
@@ -121,11 +115,11 @@
     text-decoration: none;
   }
 
-  blockquote, p {
+  /* blockquote, p {
     orphans: 3;
     widows: 3;
     hyphens: auto;
-  }
+  } */
 /* maybe use for page break */
   /* h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
   	padding-top: 0;
@@ -137,61 +131,57 @@
   } */
 
   /* not working */
-  h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  /* h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
     page-break-before: avoid;
-  }
+  } */
 
-  h1, h2, h3, h4, h5, h6 {
-    font-weight:normal !important;
-    text-align: left;
+  h1, h2, h3, h4, h5, h6, .headers, #title, .index-number {
+    font-weight: normal !important;
+    line-height: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     /* page-break-after: avoid; */
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
     /* background-color: yellow; */
-    line-height: 17.008pt !important;
   }
 
   h1 {
     font-size: 14pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
     margin-left: 0;
   }
 
   h2 {
     font-size: 14pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+
     margin-left: 6mm !important;
   }
 
   h3 {
     font-size: 12pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+
     margin-left: 12mm !important;
     /* padding-top: 2pt; */
   }
 
   h4 {
-    font-size:10pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+    font-size: 10pt !important;
+
     margin-left: 18mm !important;
     /* padding-top: 4pt; */
   }
 
   h5 {
     font-size: 9pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+
     margin-left: 24mm !important;
     /* padding-top: 5pt; */
   }
 
   h6 {
     font-size: 8pt !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
+
     margin-left: 30mm !important;
     /* padding-top: 6pt; */
   }
@@ -237,7 +227,6 @@
     display: inline !important;
     font-family: 'VerilySerifMono';
     text-transform: uppercase;
-    line-height: 17.008pt !important;
     color: black;
   }
 
@@ -252,27 +241,43 @@
   }
 
   #footnotes {
-    margin-right: 111mm !important;
-    margin-left: 0 !important;
-    padding: 0 !important;
     height: 100% !important;
-    background-color: transparent !important;
-    text-align: left !important;
+    width: 87mm !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
     position: relative !important;
     bottom: 0;
+    overflow-y: auto;
+    background-color: transparent !important;
+    /* text-align: left !important; */
   }
 
   #footnotes ol {
     font-family: 'VerilySerifMono' !important;
-    font-size: 7pt !important;
-    line-height: 8.504pt !important;
-    padding-left: 6mm !important;
+    font-size: 7.2pt !important;
+    line-height: 3mm !important;
     color: #939597 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    padding-left: 6mm !important;
+  }
+
+  #footnotes li {
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 3mm !important;
+    line-height: 3mm !important;
+
+    /* margin-bottom: 3mm !important; */
   }
 
   #footnotes a {
-    text-decoration: none !important;
-    font-weight: normal;
+    text-decoration: none;
+    font-weight: normal !important;
+    line-height: 0 !important;
   }
 
   #footnotes p, #footnotes a {
@@ -281,20 +286,15 @@
 
   #footnotes a[href^=http]:after {
     content:" [" attr(href) "] ";
-    font-size: 70%;
-
+    font-size: 85%;
+    line-height: 0 !important;
   }
 
   #footnotes img {
-    max-width: 70mm;
+    max-width: 75mm;
     padding: 0;
     margin: 0;
     border: 0;
-  }
-
-  li {
-    margin-bottom: 8.504pt !important;
-    margin-top: 8.504pt !important;
   }
 
   a:target {
