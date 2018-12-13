@@ -307,10 +307,16 @@
 
 @font-face {
   font-family: 'VerilySerifMono';
-  src:
-    local('VerilySerifMono'),
-    /* url(.VerilySerifMono.otf) format('otf'), */
-    url(.VerilySerifMono.otf) format('opentype'),
+    src: local('fonts/VerilySerifMono');
+    src: url(.VerilySerifMono.otf) format('opentype'),
+         url('fonts/VerilySerifMono-webfont.eot');
+    src: url('fonts/VerilySerifMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VerilySerifMono-webfont.woff2') format('woff2'),
+         url('fonts/VerilySerifMono-webfont.woff') format('woff'),
+         url('fonts/VerilySerifMono-webfont.ttf') format('truetype'),
+         url('fonts/VerilySerifMono-webfont.svg#verily_serif_monobook') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
